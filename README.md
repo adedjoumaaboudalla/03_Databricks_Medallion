@@ -45,9 +45,13 @@ L’ingestion des données se fait en **streaming via Auto Loader** depuis un r�
 Définir les chemins sources et cibles dans `configs/autoloader_config.json` :
 ```json
 {
-  "source_path": "s3://vehicle-data/raw/",
+  "source_schema": "source_type STRING, value STRING",
+  "source_path": "gs://vehicle_sales_data/raw/",
   "bronze_path": "dbfs:/mnt/bronze/",
   "silver_path": "dbfs:/mnt/silver/",
-  "gold_path": "dbfs:/mnt/gold/"
+  "gold_path": "dbfs:/mnt/gold/",
+  "bronze_checkpoint_path": "dbfs:/mnt/bronze/checkpoint",
+  "silver_checkpoint_path": "dbfs:/mnt/silver/checkpoint",
+  "gold_checkpoint_path": "dbfs:/mnt/gold/checkpoint"
 }
 
