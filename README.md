@@ -6,7 +6,6 @@ L’objectif est de simuler une chaîne analytique complète de ventes de véhic
 
 L’ingestion des données se fait en **streaming via Auto Loader** depuis un répertoire Cloud Storage (Azure Data Lake, AWS S3 ou GCS).
 
----
 
 ## 🏗️ Architecture
 
@@ -30,12 +29,10 @@ L’ingestion des données se fait en **streaming via Auto Loader** depuis un r�
   - `vehicle_brand_stats` : statistiques par marque.
   - `sales_rep_performance` : performance des vendeurs.
 
----
 
 ## 📂 Structure du dépôt
 
 
----
 
 ## ⚙️ Technologies utilisées
 - **Databricks Runtime 13.3+**
@@ -44,9 +41,7 @@ L’ingestion des données se fait en **streaming via Auto Loader** depuis un r�
 - **Spark Structured Streaming**
 - **Change Data Feed (CDF)**
 - **Python (PySpark)**
-- **Power BI / Tableau** (en aval)
 
----
 
 ## 🚀 Étapes d'exécution
 
