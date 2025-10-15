@@ -9,8 +9,6 @@ L’ingestion des données se fait en **streaming via Auto Loader** depuis un r�
 
 ## 🏗️ Architecture
 
-
-
 ### 🥉 Bronze Layer
 - **Source** : fichiers bruts (CSV, JSON, Parquet) stockés dans le cloud.
 - **Ingestion** : via **Auto Loader** (`cloudFiles`) en mode streaming.  
@@ -43,9 +41,7 @@ L’ingestion des données se fait en **streaming via Auto Loader** depuis un r�
 - **Python (PySpark)**
 
 
-## 🚀 Étapes d'exécution
-
-### 1️⃣ Configuration du Cloud Storage
+## 1️⃣ Configuration du Cloud Storage
 Définir les chemins sources et cibles dans `configs/autoloader_config.json` :
 ```json
 {
