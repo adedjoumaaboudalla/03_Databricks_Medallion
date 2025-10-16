@@ -40,7 +40,7 @@ L’ingestion des données se fait en **streaming via Auto Loader** depuis un r�
 - **Delta Lake**
 - **Auto Loader** (`cloudFiles`)
 - **Spark Structured Streaming**
-- **Change Data Feed (CDF)**
+- **Slow Data Change (SDF)**
 - **Python (PySpark)**
 
 
