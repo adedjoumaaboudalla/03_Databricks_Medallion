@@ -29,6 +29,9 @@ L’ingestion des données se fait en **streaming via Auto Loader** depuis un r�
 
 
 ## 📂 Structure du dépôt
+  - config : Les fichiers de configuration comme les path fixe
+  - includes : Les fichier de join par exemple
+  - notebooks : Les notes book pour la création du pipeline
 
 
 
