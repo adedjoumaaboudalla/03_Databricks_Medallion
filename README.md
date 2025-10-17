@@ -45,6 +45,7 @@ L’ingestion des données se fait en **streaming via Auto Loader** depuis un r�
 - **Python (PySpark)**
 
 
+
 ## 1️⃣ Configuration du Cloud Storage
 Définir les chemins sources et cibles dans `configs/autoloader_config.json` :
 ```json
@@ -58,4 +59,6 @@ Définir les chemins sources et cibles dans `configs/autoloader_config.json` :
   "silver_checkpoint_path": "dbfs:/mnt/silver/checkpoint",
   "gold_checkpoint_path": "dbfs:/mnt/gold/checkpoint"
 }
+```
+<img width="2204" height="1268" alt="image" src="https://github.com/user-attachments/assets/d7ebd1af-4173-4b5e-9871-68c20107c2bb" />
 
